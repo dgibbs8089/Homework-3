@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Gibbens portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="Assets/javascript.js"></script>
+    <link rel="stylesheet" href="Assets/style.css">
+    
+<!-- Function used to shrink nav bar removing paddings and adding transparent background -->
+        <script>
+                $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+                } else {
+                $('.nav').removeClass('affix');
+                }
+                });
+        </script>
+
+</head>
+
+<body>
+
+<header class="home">
+<nav class="nav">
+    <div class="container">
+        <div class="logo" id="logo">
+            <a href="#">David Gibbens</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+</header>
+<br>
+<main class="content">
+
+        <img src="./Assets/david.jpg" alt="picture of David" class="float-right">
+        <h1>About Me</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat vitae lorem nec commodo. Maecenas id lacus porttitor, viverra lectus a, dictum neque. Maecenas nec molestie turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce aliquet lectus lectus, quis ullamcorper purus fringilla sed. In vitae lorem in erat tristique porttitor vel nec lectus. Morbi placerat tristique elementum. Suspendisse potenti. <br>
+
+            Proin vehicula non mauris vel porttitor. Proin suscipit lorem purus, ac commodo dolor commodo eget. Donec sed placerat orci. Sed non odio hendrerit, posuere elit quis, varius enim. Vestibulum posuere quam felis, et molestie ligula mollis a. Curabitur id enim et mauris ullamcorper rhoncus a nec leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sollicitudin bibendum erat hendrerit rutrum. Nullam pulvinar metus sed lorem consectetur pretium. In rutrum sem dignissim efficitur pretium. Quisque fermentum nulla eu magna congue, eget rutrum lectus sollicitudin. Curabitur consectetur suscipit libero, in auctor urna fringilla vestibulum. Suspendisse ullamcorper mi augue, non convallis eros fringilla non. Etiam pretium placerat metus. Donec facilisis justo fermentum, semper felis vitae, lacinia magna. Nulla facilisi. <br>
+
+            Vivamus et mi ornare, malesuada arcu eget, viverra orci. Donec dapibus tincidunt rhoncus. Mauris mattis laoreet hendrerit. Praesent at rutrum augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dignissim sem a sollicitudin rhoncus. Integer sed lacinia arcu. Fusce molestie urna non massa eleifend, eget laoreet mauris lacinia. Cras sed nulla vitae metus lacinia convallis. Nullam quis suscipit mi. In lacus erat, hendrerit in vulputate nec, sollicitudin eget est. Praesent ornare fringilla nibh, at consectetur turpis accumsan et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+
+            Nam tristique enim nec ultrices posuere. Curabitur faucibus purus rhoncus lorem dignissim aliquet. Morbi lobortis vel metus vulputate ultricies. Nulla ipsum augue, commodo non ante nec, porttitor sagittis elit. Cras pharetra ante purus, ac lobortis lacus rutrum quis. Aliquam tristique scelerisque nisl, sed vestibulum ligula vulputate quis. Donec id dolor in nisi tempor tempor. Cras est orci, consequat ut bibendum non, mollis et magna. In ornare porta magna. Sed porttitor, dolor hendrerit pulvinar blandit, metus purus dapibus nulla, nec placerat dui massa eget arcu. Vestibulum varius est turpis, et pulvinar ante dictum eu. Curabitur at ex ultricies, tristique leo ac, dapibus leo. Mauris vitae ultricies sapien, at eleifend neque. Quisque pellentesque est ac leo ornare ornare.
+
+        </p>
+    
+</main>
+
+
+
+</body>
+</html>

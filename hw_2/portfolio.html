@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davids Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="Assets/javascript.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding transparent background -->
+    <script>
+            $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+            } else {
+            $('.nav').removeClass('affix');
+            }
+            });
+    </script>
+
+    <link rel="stylesheet" href="Assets/Style.css">
+
+</head>
+
+
+    
+    <body class="content">
+            <header class="home">
+                <nav class="nav">
+                    <div class="container">
+                        <div class="logo" id="logo">
+                            <a href="http://127.0.0.1:5500/dgibbs8089.github.io/index.html#">David Gibbens</a>
+                        </div>
+                        <div id="mainListDiv" class="main_list">
+                            <ul class="navlinks">
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        </div>
+                    <span class="navTrigger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                    </div>
+                </nav>
+            </header>
+
+        <section class="Portfolio" id="portfolio">
+            <h1>Portfolio</h1>
+        </section>
+
+    <!-- MAIN (Center website) -->
+        
+<div class="main">
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="./Assets/david.jpg" alt="place holder of myself" style="width:100%">
+                <h3>Project 1</h3>
+                    <p>Nam at lacus faucibus, tempus elit placerat, pharetra odio. Mauris ultricies dignissim sem at mattis. Donec vitae lacinia leo. Sed sapien augue, semper ullamcorper nulla id, molestie porta quam. Aenean in dapibus nunc. Nullam fermentum mauris quis velit molestie</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="./Assets/david.jpg" alt="place holder of myself" style="width:100%">
+                <h3>Project 2</h3>
+                    <p>Nam at lacus faucibus, tempus elit placerat, pharetra odio. Mauris ultricies dignissim sem at mattis. Donec vitae lacinia leo. Sed sapien augue, semper ullamcorper nulla id, molestie porta quam. Aenean in dapibus nunc. Nullam fermentum mauris quis velit molestie, vitae dictum nulla.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="./Assets/david.jpg" alt="place holder of myself" style="width:100%">
+                <h3>Project 3</h3>
+                    <p>Nam at lacus faucibus, tempus elit placerat, pharetra odio. Mauris ultricies dignissim sem at mattis. Donec vitae lacinia leo. Sed sapien augue, semper ullamcorper nulla id, molestie porta quam. Aenean in dapibus nunc. Nullam fermentum mauris quis velit molestie, vitae dictum nulla ultrices. Nulla tempor massa id est tincidunt, quis tincidunt diam pretium. Vivamus porta euismod volutpat. </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src=".\Assets\david.jpg" alt="place holder of myself" style="width:100%">
+                <h3>Project 4</h3>
+                    <p>Nam at lacus faucibus, tempus elit placerat, pharetra odio. Mauris ultricies dignissim sem at mattis. Donec vitae lacinia leo. Sed sapien augue, semper ullamcorper nulla id, molestie porta quam. Aenean in dapibus nunc. Nullam fermentum mauris quis velit molestie</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- END MAIN -->
+</div>
+
+</body>
+</html>
